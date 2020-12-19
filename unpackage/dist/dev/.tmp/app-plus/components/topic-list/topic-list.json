@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "hot-class": "/components/hot-class/hot-class"
+  },
+  "component": true
+}

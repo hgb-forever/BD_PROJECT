@@ -1,0 +1,26 @@
+
+.classification>view.data-v-d4cd974c{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	border-radius: 20rpx;
+	text-align: center;
+	background: #EEEEEE;
+	margin:10rpx;
+}
+.hot-class.data-v-d4cd974c{
+	margin-top: 20rpx;
+	border-bottom: 1rpx solid #EEEEEE;
+}
+.hot-class>view.data-v-d4cd974c:first-child{
+	padding: 0rpx 10rpx;
+}
+.hot-class>view:first-child>view.data-v-d4cd974c{
+	color: #CCCCCC;
+	font-size: 30rpx;
+}
+.hot-class>view.data-v-d4cd974c:last-child{
+	margin: 10rpx;
+	color: #AAAAAA;
+}
+

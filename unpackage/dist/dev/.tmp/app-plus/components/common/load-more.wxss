@@ -1,0 +1,8 @@
+
+.onReflash{
+		text-align: center;
+		padding: 2rpx 10rpx;
+		color: #AAAAAA;
+		/* color: #EEEEEE; */
+}
+

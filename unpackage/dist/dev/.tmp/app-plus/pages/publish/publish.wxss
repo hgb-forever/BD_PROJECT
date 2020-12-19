@@ -1,0 +1,25 @@
+
+.popup-content{
+	height: 500rpx; 
+	width: 500rpx;
+	background: #FFFFFF;
+	padding:40rpx 50rpx 20rpx 50rpx;
+	border-radius: 20rpx;
+}
+.popup-content>view:nth-child(1){
+	width: 100%;
+	margin-bottom: 30rpx;
+}
+.popup-content>view:nth-child(1)>image{
+	width: 65%;
+	border-radius: 15rpx;
+}
+.popup-content>view{
+	color: #333;
+	font-size: 30rpx;
+}
+.popup-content>button{
+	margin-top: 20rpx;
+	color: #FCF119;
+}
+

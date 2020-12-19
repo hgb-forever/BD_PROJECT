@@ -1,0 +1,13 @@
+/* flex布局 */
+.u-flex,.u-align-items,.u-justify-content,.u-justify-contentb{
+		display: flex;
+	}
+	.u-align-items,.u-justify-content{
+		align-items: center;
+	}
+	.u-justify-content{
+		justify-content: center;
+	}
+	.u-justify-contentb{
+		justify-content: space-between;
+	}

@@ -1,0 +1,39 @@
+
+.qiandao.data-v-2a43d7c8{
+	fontSize:18px;
+	color:#FF9C1E;
+	width: 100%;
+}
+.pen.data-v-2a43d7c8{
+	fontSize:18px;
+	color:#010000;
+	position: absolute;
+	right: 10rpx;
+	bottom:10rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+}
+.nav-tab-bar.data-v-2a43d7c8{
+	position: relative;
+}
+.nav-tab-bar-title.data-v-2a43d7c8{
+	padding: 0 20rpx;
+	color: #969696;
+	font-weight: bold;
+}
+.active.data-v-2a43d7c8{
+	color: #343434;
+}
+.active .nav-tab-bar-line.data-v-2a43d7c8 {
+	border-radius: 50rpx;
+	border-top: 5rpx solid #FCF004;
+	border-bottom: 5rpx solid #FCF004;
+	width: 70rpx;
+	position: absolute;
+	bottom: 0;
+}
+

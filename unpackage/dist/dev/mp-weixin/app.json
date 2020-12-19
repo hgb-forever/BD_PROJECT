@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/dongtai/dongtai",
+    "pages/xiaoxi/xiaoxi",
+    "pages/wode/wode",
+    "pages/search/search",
+    "pages/publish/publish"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "hgb的uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#B5B5B5",
+    "selectedColor": "#FEE42B",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "static/tarbarpic/home.png",
+        "selectedIconPath": "static/tarbarpic/homed.png"
+      },
+      {
+        "pagePath": "pages/dongtai/dongtai",
+        "text": "动态",
+        "iconPath": "static/tarbarpic/dongtai.png",
+        "selectedIconPath": "static/tarbarpic/dongtaied.png"
+      },
+      {
+        "pagePath": "pages/xiaoxi/xiaoxi",
+        "text": "消息",
+        "iconPath": "static/tarbarpic/xiaoxi.png",
+        "selectedIconPath": "static/tarbarpic/xiaoxied.png"
+      },
+      {
+        "pagePath": "pages/wode/wode",
+        "text": "我的",
+        "iconPath": "static/tarbarpic/mine.png",
+        "selectedIconPath": "static/tarbarpic/mined.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

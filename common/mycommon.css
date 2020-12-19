@@ -1,0 +1,26 @@
+.f_center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.u-f, .u-f-jsb , .u-ajc, .u-f-jc,.u-f-ac{
+	display: flex;
+}
+.u-f-jsb, .u-ajc,.u-f-ac{
+	align-items: center;
+}
+.u-ajc,.u-f-jc{
+	justify-content: center;
+}
+.u-direction-col{
+	flex-direction: column;
+}
+.u-f-nowrap{
+	flex-wrap: nowrap;
+}
+.u-f-wrap{
+	flex-wrap: wrap;
+}
+.u-f-jsb{
+	justify-content: space-between;
+}

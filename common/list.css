@@ -1,0 +1,79 @@
+.common-list{
+		width: 100%;
+		padding: 20upx;
+		border-bottom: 1upx solid #EEE;
+		box-sizing: border-box;
+		dispaly: flex;
+	}
+	.common-list-left{
+		width: 120upx;
+		flex-shrink: 0;
+	}
+	.common-list-left image{
+		width: 80upx;
+		height: 80upx;
+		border-radius: 50%;
+	}
+	.common-list-right{	
+		flex: 1;
+	}
+	.common-list-right>view:first-of-type>view:first-of-type>view:first-of-type{
+		color: #999;
+		margin-right: 20upx;
+	}
+	.common-list-right>view:first-of-type>view:last-of-type{
+		background-color: #F4F4F4;
+		border-radius: 6upx;
+		font-size: 14px;
+		padding: 0 10upx; 
+	}
+	.common-list-title{
+		font-size: 16px;
+		margin: 10upx 0;
+		line-height: 1.5;
+	}
+	.common-list-titleimg{
+		position: relative;
+		color: #fff;
+	}
+	.common-list-titleimg>image{
+		width: 100%;
+		border-radius: 20upx;
+	}
+	.common-list-titleimg>.common-list-play{
+		position: absolute;	
+		font-size: 50px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.common-list-titleimg>.common-list-playinfo{
+		position: absolute;
+		bottom: 20upx;
+		right: 10upx;
+		padding: 0 10upx;
+		background-color: rgba(0,0,0,.8);
+		border-radius: 10upx;
+	}
+	.common-list-right>view:last-of-type{
+		color: #ccc;
+		padding-bottom: 10upx;
+	}
+	.common-list-right>view:last-of-type>view:last-of-type>view{
+		margin: 0 10upx;
+		font-size: 14px;
+	}
+	.common-list-sharen{
+		/* background-color: #eee; */
+		padding: 10upx;
+		border-radius: 10upx;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.common-list-sharen>image{
+		width: 200upx;
+		height: 150upx;
+	}
+	.common-list-sharen>view{
+		padding-left: 10upx;
+	}

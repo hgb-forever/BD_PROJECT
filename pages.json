@@ -1,0 +1,350 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "hgb的测试"
+				"app-plus":{
+					"scrollIndicator" : "none", //隐藏侧边滚动条
+					"titleNView" : {
+						"searchInput":{
+							"align":"center",
+							"backgroundColor":"#F7F7F7",
+							"placeholder":"搜索",
+							"borderRadius":"4px",
+							"placeholderColor":"#CCCCCC",
+							"disabled":true
+						},
+						"buttons":[
+							{
+								//左边按钮
+								"color":"#FF9C1E",
+								"colorPressed":"#BBBBBB",
+								"float":"left",
+								"fontSize":"22px",
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue609"
+							},
+							{
+								// 右边按钮
+								"color":"#010000",
+								"colorPressed":"#BBBBBB",
+								"float":"right",
+								"fontSize":"18px",
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue61c"
+							}
+						]
+					}
+				}
+			}
+		}
+	    
+        ,{
+            "path" : "pages/dongtai/dongtai",
+            "style" : {
+				"app-plus":{
+					"titleNView":false,
+					"scrollIndicator":"none",
+					"bounce":"none"
+				}
+			}
+        }
+		,{
+		    "path" : "pages/ai/aigettitle",
+		    "style" : {
+				"navigationBarTitleText":"AI题目生成",
+		    	"app-plus":{
+		    		// "titleNView":false,
+		    		"scrollIndicator":"none",
+		    		"bounce":"none"
+		    	}
+		    }
+		}
+        ,{
+            "path" : "pages/xiaoxi/xiaoxi",
+            "style" : {
+				"navigationBarTitleText":"消息",
+				"app-plus":{
+					"titleNView" : {
+						"buttons":[
+							{
+								//左边按钮
+								"color":"#FF9C1E",
+								"colorPressed":"#BBBBBB",
+								"float":"left",
+								"fontSize":"18px",
+								"fontSrc":"/static/font/iconfont.ttf",
+								"text":"\ue607"
+							},
+							{
+								// 右边按钮
+								"color":"#010000",
+								"colorPressed":"#BBBBBB",
+								"float":"right",
+								"fontSize":"18px",
+								"fontSrc":"/static/font/iconfont.ttf",
+								"text":"\ue636"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" : {
+				"navigationBarTitleText": "我的",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce": "none",
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"menu"			
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"app-plus":{
+					"scrollIndicator" : "none",//隐藏侧边滚动条,
+					"bounce":"none", //关闭反弹效果
+					"titleNView" : {
+						"autoBackButton" : false,
+						"searchInput":{
+							"align":"left",
+							"backgroundColor":"#F7F7F7",
+							"placeholder":"搜索",
+							"borderRadius":"4px",
+							"placeholderColor":"#CCCCCC",
+							"disabled":false
+						},
+						"buttons":[
+							{
+								// 右边按钮
+								"color":"#010000",
+								"colorPressed":"#BBBBBB",
+								"float":"right",
+								"fontSize":"14px",
+								"fontSrc":"/static/font/icon.ttf",//视频中有取掉
+								"text":"取消"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/publish/publish",
+            "style" : {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+        }
+		,{
+		    "path" : "pages/login/login",
+		    "style" : {
+				"app-plus":{
+					"titleNView": false,
+					"bounce": "none",
+					"scrollIndicator":"none"
+				}
+			}
+		}
+		,{
+		    "path" : "pages/register/register",
+		    "style" : {
+				"app-plus":{
+					"titleNView": false,
+					"bounce": "none",
+					"scrollIndicator":"none"
+				}
+			}
+		}
+        ,{
+            "path" : "pages/text/text",
+            "style" : {}
+        }
+		,{
+		    "path" : "pages/topic-nav/topic-nav",
+		    "style" : {
+				"navigationBarTitleText":"话题分类"
+			}
+		}
+		,{
+		    "path" : "pages/topic-detail/topic-detail",
+		    "style" : {
+				"navigationBarTitleText":"话题主页",
+				"enablePullDownRefresh": true,	//开启下拉刷新
+				"app-plus":{
+					"scrollIndicator":"none",
+					"titleNView": {
+						"type": "transparent",
+						"buttons":[
+							{
+								"type": "menu"
+							}
+						]
+					} 
+				}
+			}
+		}
+		,{
+            "path" : "pages/user-list/user-list",
+            "style" : {
+				"app-plus":{
+					"scrollIndicator":"none",	//隐藏滚动条
+					"animationType":"slide-in-left",	//动画 左侧进入移除
+					"bounce": "none",	//关闭回弹效果
+					"titleNView": {
+						"autoBackButton": false,
+						"searchInput":{
+							"autoFocus":false,
+							"align":"left",
+							"backgroundColor":"#f7f7f7",
+							"borderRadius":"4px",
+							"placeholder":"搜索糗事",
+							"placeholderColor":"#CCCCCC",
+							"disabled":false
+						},
+						"buttons":[
+							{
+								"type":"none",
+								"color":"#161616",
+								"colorPressed":"#BBBBBB",
+								"float":"right",
+								"fontSize":"16px",
+								"text":"取消",
+								"fontWeight":"bold"
+							}
+						]
+					}
+				}
+			}
+        }
+		,{
+		    "path" : "pages/user-chat/user-chat",
+		    "style" : {
+				"navigationBarTitleText":"聊天页",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"none",
+								"color":"#000",
+								"colorPressed":"#BBB",
+								"float": "right",
+								"fontSize": "22px",
+								"fontSrc": "/static/font/icon.ttf",
+								"text":"\ue628"
+							}
+						]
+					}
+				}
+			}
+		}
+		,{
+		    "path" : "pages/detail/detail",
+		    "style" : {
+				"navigationBarTitleText":"内容页",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"none",
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"menu"
+							}
+						]
+					}
+				}
+			}
+		}
+		,{
+		    "path" : "pages/user-set/user-set",
+		    "style" : {
+				"navigationBarTitleText":"设置"
+			}
+		}
+		,{
+		    "path" : "pages/user-set-repassword/user-set-repassword",
+		    "style" : {
+				"navigationBarTitleText":"修改密码"
+			}
+		}
+		,{
+		    "path" : "pages/user-set-email/user-set-email",
+		    "style" : {
+				"navigationBarTitleText":"修改邮箱"
+			}
+		}
+		,{
+		    "path" : "pages/user-set-userinfo/user-set-userinfo",
+		    "style" : {
+				"navigationBarTitleText":"修改资料"
+			}
+		}
+		,{
+		    "path" : "pages/user-set-help/user-set-help",
+		    "style" : {
+				"navigationBarTitleText":"意见反馈"
+			}
+		}
+		,{
+		    "path" : "pages/user-set-about/user-set-about",
+		    "style" : {
+				"navigationBarTitleText":"关于毕导"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "毕导",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#B5B5B5",
+		"selectedColor":"#FEE42B",
+		"borderStyle":"black",
+		"backgroundColor":"#FFFFFF",
+		"list": [
+			{
+				"pagePath":"pages/index/index",
+				"text":"主页",
+				"iconPath":"static/tarbarpic/home.png",
+				"selectedIconPath":"static/tarbarpic/homed.png"
+			},
+			{
+				"pagePath":"pages/dongtai/dongtai",
+				"text":"动态",
+				"iconPath":"static/tarbarpic/dongtai.png",
+				"selectedIconPath":"static/tarbarpic/dongtaied.png"
+			},
+			{
+				"pagePath":"pages/ai/aigettitle",
+				"text":"题目生成",
+				"iconPath":"static/tarbarpic/AI.png",
+				"selectedIconPath":"static/tarbarpic/AIed.png"
+			},
+			{
+				"pagePath":"pages/xiaoxi/xiaoxi",
+				"text":"消息",
+				"iconPath":"static/tarbarpic/xiaoxi.png",
+				"selectedIconPath":"static/tarbarpic/xiaoxied.png"
+			},
+			{
+				"pagePath":"pages/home/home",
+				"text":"我的",
+				"iconPath":"static/tarbarpic/mine.png",
+				"selectedIconPath":"static/tarbarpic/mined.png"
+			}
+		]
+	}
+}

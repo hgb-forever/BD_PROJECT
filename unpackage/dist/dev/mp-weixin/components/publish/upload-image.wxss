@@ -1,0 +1,20 @@
+
+.cell-pd {
+	padding: 22rpx 30rpx;
+}
+.list-pd {
+	margin-top: 50rpx;
+}
+.uni-uploader__file{
+	position: relative;
+}
+.deleteButton{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #BEBEBE;
+	color: #333333;
+	border-radius: 10rpx;
+	padding: 0 8rpx;
+}
+
